@@ -1,7 +1,7 @@
 #Python operators
 
-a=15
-b=10
+# a=15
+# b=10
 # #Addition
 # print("Addition of a and b is: ", a+b)
 # #Subtraction
@@ -18,9 +18,16 @@ b=10
 # print("Exponentiation of a and b is: ",a**b)
 
 #Comparision operatore
-print(a>b)
-print(a<b)
-print(a==b)
-print(a!=b)
-print(a>=b)
-print(a<=b)
+# print(a>b)
+# print(a<b)
+# print(a==b)
+# print(a!=b)
+# print(a>=b)
+# print(a<=b)
+
+#Logical operators in python
+a= True
+b= False
+print(a and b) #Logical AND
+print(a or b) #Logical OR
+print(not a) #Logical NOT 
