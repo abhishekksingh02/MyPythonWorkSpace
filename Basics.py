@@ -3,11 +3,11 @@
 # age = int(age_input)
 # if age < 0:
 #     print("You are minor")
-# if age < 18:
+# if age <= 18:
 #     print("You cannot vote")
-# if age >= 18:
+# if age > 18:
 #     print("You can vote....")
-# name = input("What is your name: ")
+# name = input("What is your name: ")#By default it will take input as String
 # print(name)
 
 # a="Hello"
@@ -42,10 +42,12 @@
 
 # print(a,b,c)
 
-a=10
-def f():
-    global a #10
-    a = 11
-f()
-print(a)
+# a=10
+# def f():
+#     global a #10
+#     a = 11
+# f()
+# print(a)
+
+#Testing git commands 
     
