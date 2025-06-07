@@ -33,12 +33,19 @@
 # print(not a) #Logical NOT 
 
 #Bitwise operators in python
+# a=10
+# b=4
+# print(a & b) #Bitwise AND
+# print(a | b) #Bitwise OR
+# print(a ^ b) #Bitwise XOR
+# print(a << b) #Bitwise LEFT SHIFT
+# print(a >> b) #Bitwise RIGHT SHIFT
+# print(~a) #Bitwise NOT
+
+#Identity operators in Python
 a=10
-b=4
-print(a & b) #Bitwise AND
-print(a | b) #Bitwise OR
-print(a ^ b) #Bitwise XOR
-print(a << b) #Bitwise LEFT SHIFT
-print(a >> b) #Bitwise RIGHT SHIFT
-print(~a) #Bitwise NOT
+b=20
+c=a
+print(a is not b) #is not : True if the operands are not similar
+print(a is c) # is : True if the operands are similar
 
