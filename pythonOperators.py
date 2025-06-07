@@ -26,8 +26,19 @@
 # print(a<=b)
 
 #Logical operators in python
-a= True
-b= False
-print(a and b) #Logical AND
-print(a or b) #Logical OR
-print(not a) #Logical NOT 
+# a= True
+# b= False
+# print(a and b) #Logical AND
+# print(a or b) #Logical OR
+# print(not a) #Logical NOT 
+
+#Bitwise operators in python
+a=10
+b=4
+print(a & b) #Bitwise AND
+print(a | b) #Bitwise OR
+print(a ^ b) #Bitwise XOR
+print(a << b) #Bitwise LEFT SHIFT
+print(a >> b) #Bitwise RIGHT SHIFT
+print(~a) #Bitwise NOT
+
