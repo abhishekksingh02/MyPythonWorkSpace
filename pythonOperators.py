@@ -43,9 +43,36 @@
 # print(~a) #Bitwise NOT
 
 #Identity operators in Python
-a=10
-b=20
-c=a
-print(a is not b) #is not : True if the operands are not similar
-print(a is c) # is : True if the operands are similar
+# a=10
+# b=20
+# c=a
+# print(a is not b) #is not : True if the operands are not similar
+# print(a is c) # is : True if the operands are similar   
+
+#Membership Operators in python
+#in: True if value found in the sequence
+#not in: True if value not found in sequence
+# x=24
+# y=10
+# list=[10,20,24,35,65,70]
+# if x not in list:
+#     print("24 is not in list")
+# else:
+#     print("24 is in the list")
+# if y not in list:
+#     print("10 is not in list")
+# else:
+#     print("10 is in the list")
+
+#Ternary operator in Python
+# a,b = 10,20
+# min = a if (a<b) else b
+# print(min)
+
+#Operator associativity in Python
+print(100/10*10)
+print(5-2+3)
+print(5-(2+3))
+print(2**3**2) #this means 2 ** (3**2) ->> 2 ** 9 ->> 512 answer
+
 
