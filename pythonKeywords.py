@@ -61,6 +61,73 @@
 # del(s)
 # print(s)
 
-def fun():
-    print("Inside function fun")
-fun()
+# def fun():
+#     print("Inside function fun")
+# fun()
+
+#Keyword "return" and "yeild"
+# def fun():
+#     s=2
+#     return s
+# print(fun())
+# def Fun():
+#     yield 1
+#     yield 2
+#     yield 3
+# for value in Fun():
+#     print(value)
+
+# g = lambda x: x*x*x
+# print(g(7))
+
+# def cubicFun():
+#     g=7
+#     return 7*7*7
+# print(cubicFun())
+
+# with open('file_Path','w') as file:
+#     file.write('Hello World!')
+
+# import math 
+# print(math.factorial(10))
+
+# a=15
+# b=10
+
+# def addition():
+#     c=a+b
+#     print(c) #Output: 25
+
+# addition()
+
+# def subtraction():
+#     temp_var = 10
+#     def subFun():
+#         nonlocal temp_var 
+#         temp_var -= 10 #Output: 0
+#         print(temp_var)
+#     subFun()
+
+# subtraction()   
+
+#async and await fun in py
+import asyncio
+async def test():
+    print("Hellooo")
+    await asyncio.sleep(2) # Will wait for 2 seconds and then prints below statement
+    print("Abhishek Singh")
+asyncio.run(test())
+
+async def task_1():
+    print("Task 1 started....")
+    await asyncio.sleep(2)
+    print("Task 1 ended....")
+async def task_2():
+    print("Task 2 started....")
+    await asyncio.sleep(1)
+    print("Task 2 ended....")
+
+async def main():
+    await asyncio.gather(task_1(),task_2())
+
+asyncio.run(main())
