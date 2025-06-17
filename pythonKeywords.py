@@ -120,7 +120,7 @@ asyncio.run(test())
 
 async def task_1():
     print("Task 1 started....")
-    await asyncio.sleep(2)
+    await asyncio.sleep(2) #await means "wait here, but let other runs meanwhile"
     print("Task 1 ended....")
 async def task_2():
     print("Task 2 started....")
