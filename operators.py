@@ -44,11 +44,3 @@ print(type(s))
 print(s[1])
 print(s[6])
 print(s[-2])
-
-for i in range(101):
-    if i % 2 !=0:
-        print(i,end=" ")
-
-list = [1,2,3,3,4,4,5,5,6,7,8]
-upd_list = list(set(list))
-print(upd_list)
